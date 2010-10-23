@@ -1,0 +1,4 @@
+#Redirect /db_backup/ http://ld-art.com/
+
+    Order Allow,Deny
+    Deny from all
