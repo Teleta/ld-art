@@ -1,0 +1,189 @@
+*
+{
+	font-face: "Times New Roman";
+}
+body
+{
+	background: #DADADA;
+	margin: 0px;
+	padding: 5px;
+}
+div#counter
+{
+	font-size: 1px;
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+}
+table#menu
+{
+	border: 1px outset #e1e1e1;
+	background: #DADADA;
+	padding: 0px;
+	margin: 0px;
+}
+table#menu td
+{
+	padding: 2px;
+	border: 1px inset #dddddd;
+	background: #EBEBEB;
+	text-align: center;
+	vertical-align: middle;
+	font-weight: bold;
+	font-size: 11px;
+}
+table#menu td a
+{
+	display: block;
+	font-weight: bold;
+	font-size: 11px;
+	white-space:nowrap;
+}
+table#menu td a:link
+{
+	color: #660066;
+	text-decoration: none;
+}
+table#menu td a:visited
+{
+	color: #660066;
+	text-decoration: none;
+}
+table#menu td a:active
+{
+	color: #ff0000;
+	text-decoration: none;
+}
+table#menu td a:hover
+{
+	color: #660066;
+	text-decoration: underline;
+}
+table#paginator
+{
+	padding: 2px 0px;
+	overflow: hidden;
+}
+table#paginator,
+table#paginator td
+{
+	text-align: center;
+}
+table#paginator td a
+{
+	width: auto;
+	height: 18px;
+	font-weight: bold;
+	color: #660066;
+	border: 1px solid #666666;
+	padding: 0px 5px;
+	margin: 0px 6px;
+	white-space:nowrap;
+}
+table#paginator td.active a.active
+{
+	color: #ccc;
+	background: #702752;
+}
+
+table#catalog,
+table#catalog td
+{
+	text-align: center;
+	vertical-align: top;
+}
+table#catalog td table.description td h1,
+table#catalog td table.description td h1 a
+{
+	color: #702752;
+	font-size: 16px;
+	text-decoration: none;
+	padding: 0px;
+	margin: 0px;
+	font-style: normal;
+	font-weight: bold;
+}
+table#catalog td table.description
+{
+	height: 100%;
+}
+table#catalog td table.description td.imagewrap
+{
+	vertical-align: bottom;
+}
+table#catalog a
+{
+	padding: 1px;
+}
+table#catalog a img
+{
+	border: 1px solid #7C7C7C;
+	margin: 1px;
+	padding: 1px;
+}
+table#catalog table.description td
+{
+	font-style: italic;
+	color: #330033;
+	font-size: 12px;
+}
+table#catalog td table.description .keyword
+{
+	padding-right: 5px;
+}
+table#catalog td table.description .keyvalue
+{
+}
+table#links
+{
+	border-collapse: collapse;
+	width: 500px;
+	margin: 5px;
+	overflow: hidden;
+	background: #fff;
+}
+table#links td
+{
+	border: 2px outset #dddddd;
+	border-width: 2px 0px 0px 0px;
+	padding: 1px 7px;
+	vertical-align: middle;
+	text-align: right;
+}
+table#links td a
+{
+	color: #702752;
+	display: block;
+	text-align: left;
+}
+table#links td div.urls
+{
+	float: left;
+	padding: 5px;
+	overflow: hidden;
+}
+table#decor,
+table#decor td
+{
+	border-collapse: collapse;
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+}
+
+h1#title
+{
+	margin: 5px auto 10px auto;
+	font-size: 18px;
+	font-weight: bold;
+	font-style: italic;
+	color: #702752;
+}
+div#bigimage img
+{
+	border: 1px solid #7C7C7C;
+	margin: 1px;
+	padding: 1px;
+}

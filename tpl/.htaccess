@@ -1,0 +1,7 @@
+Order Allow,Deny
+Deny From All
+
+<Files *.css>
+Order Allow,Deny
+Allow From All
+</Files>
