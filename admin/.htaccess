@@ -1,0 +1,12 @@
+Options +FollowSymLinks
+RewriteEngine on
+RewriteBase /admin/
+RewriteRule ^upload(\.php)?/?$ /admin/index.php?action=upi
+RewriteRule ^imkeys(\.php)?/?$ /admin/index.php?action=keys
+RewriteRule ^config(\.php)?/?$ /admin/index.php?action=conf
+RewriteRule ^links(\.php)?/?$ /admin/index.php?action=links
+RewriteRule ^exhibitions(\.php)?/?$ /admin/index.php?action=exhibitions
+RewriteRule ^about(\.php)?/?$ /admin/index.php?action=about
+RewriteRule ^project(\.php)?/?([^\/]+)?/?([^\/]+)?/?$ /admin/index.php?action=pr&part=$2&id=$3
+RewriteRule ^image(\.php)?/?([0-9]+)/?$ /admin/index.php?action=image&id=$2
+
